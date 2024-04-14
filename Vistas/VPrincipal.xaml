@@ -12,9 +12,7 @@
 
         <!--ESTUDIANTES-->
             <Grid>
-
-
-                <Grid.RowDefinitions>
+               <Grid.RowDefinitions>
                     <RowDefinition />
                     <RowDefinition />
                     <RowDefinition />
