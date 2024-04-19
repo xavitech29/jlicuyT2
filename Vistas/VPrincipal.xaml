@@ -5,6 +5,11 @@
              Title="VPrincipal">
     <ScrollView>
     <VerticalStackLayout Padding="20">
+
+            <Label x:Name="lblUsuario"
+                   HorizontalTextAlignment="End"
+                  FontSize="14"/>
+            
         <Label 
             Text="SISTEMAS DE CALIFICACIONES UISRAEL"
             VerticalOptions="Center" 

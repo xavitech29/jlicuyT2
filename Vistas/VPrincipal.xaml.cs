@@ -4,10 +4,13 @@ public partial class VPrincipal : ContentPage
 {
 
     
-    public VPrincipal()
+    public VPrincipal( string usuario)
 	{
 		InitializeComponent();
-        
+
+        DisplayAlert("Alerta", "Bienvenido " + usuario, "Cerrar");
+        lblUsuario.Text = "Usuario conectado: " + usuario;
+
 
     }
 
