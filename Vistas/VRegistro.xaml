@@ -3,14 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="jlicuyT2.Vistas.VRegistro"
              Title="VRegistro">
-    <VerticalStackLayout>
+    <VerticalStackLayout Padding="20">
+        
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-        <Label 
-            Text="VENTANA DE REGISTRO!"
+            Text="Crear una cuenta!"
             FontSize="24"
             HorizontalTextAlignment="Center"
             />
